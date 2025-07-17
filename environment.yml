@@ -1,0 +1,29 @@
+name: qwen-infer
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pandas
+  - matplotlib
+  - seaborn
+  - numpy
+  - tqdm
+  - requests
+  - pillow
+  - networkx
+  - pygraphviz
+  - jupyter
+  - ipykernel
+  - pip:
+      - openai==1.86.0
+      - tiktoken==0.9.0
+      - python-dotenv==1.1.0
+      - regex==2024.11.6
+      - httpx==0.28.1
+      - jiter==0.10.0
+      - beautifulsoup4==4.13.4
+      - soupsieve==2.7
+      - urllib3==2.4.0
+      - webcolors==24.11.1

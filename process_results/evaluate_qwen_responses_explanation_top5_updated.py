@@ -2,7 +2,7 @@ import pandas as pd
 import os
 
 # === Choose version ===
-VERSION = "complete"  # options: "sci" or "complete"
+VERSION = "sci"  # options: "sci" or "complete"
 
 # === File paths ===
 PRED_PATH = "../prediction_analysis_top5.csv"
