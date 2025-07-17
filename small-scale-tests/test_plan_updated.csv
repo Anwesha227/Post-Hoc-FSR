@@ -1,0 +1,11 @@
+test_id,prompt,test_type,type,num_images,grouped,group,target_index
+A1,You are shown 3 images. Describe the 2nd image.,Positional (3 images),,,,,
+A2,You are shown 5 images. Describe the 4th image.,Positional (5 images),,,,,
+A3,You are shown 7 images. Describe the 3rd image.,Positional (7 images),,,,,
+B1,You are shown 3 similar species. Compare them and describe distinguishing features.,Comparison (3 similar),,,,,
+B2,You are shown 5 similar species. Compare them and describe distinguishing features.,Comparison (5 similar),,,,,
+B3,"You are shown 3 birds. The first two are from species A, the third from species B. Compare them and note any differences.","Comparison ([A, A, B])",,,,,
+B4,You are shown 2 groups of images from different classes. Compare the groups and describe the key differences.,Group Comparison (2 groups),,,,,
+B5,You are shown 3 groups of images from different classes. Compare the groups and describe the key differences.,Group Comparison (3 groups),,,,,
+A4,You are shown 2 groups of images. Each group contains equal number of images. Describe the second image from the second group.,,positional,6.0,True,2.0,5.0
+A5,You are shown 3 groups of images. Each group contains equal number of images. Describe the first image from the third group.,,positional,6.0,True,3.0,6.0

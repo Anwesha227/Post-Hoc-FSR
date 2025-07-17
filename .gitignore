@@ -1,0 +1,36 @@
+# Ignore folders
+__pycache__/
+analysis_scripts/
+backup_code/
+error_logs/
+explanation_visualization/
+images/
+small_scale_tests/
+taxonomy/.ipynb_checkpoints/
+taxonomy/figures/
+taxonomy/taxonomy_graphs_json/
+dataset/semi-aves/pregenerated_references_2shot/
+dataset/semi-aves/pregenerated_references_3shot/
+dataset/semi-aves/pregenerated_references_4shot/
+dataset/semi-aves/pregenerated_references_6shot/
+dataset/semi-aves/pregenerated_references_8shot/
+dataset/semi-aves/pregenerated_references_12shot/
+dataset/semi-aves/pregenerated_references_16shot/
+dataset/semi-aves/test/
+dataset/semi-aves/trainval_images
+
+# Ignore files
+*.pyc
+secrets.json
+.env
+.DS_Store
+inference_scripts/image_only_rerun.py
+inference_scripts/minimal_test_11_images.py
+inference_scripts/multimodal_rerun.py
+inference_scripts/qwen_error_log.txt
+inference_scripts/retry_qwen_stage1_top5_multimodal.py
+inference_scripts/retry_qwen_top5_overwrite.py
+inference_scripts/retry_stage1_multimodal.py
+inference_scripts/run_inference.py
+get_preds.py
+

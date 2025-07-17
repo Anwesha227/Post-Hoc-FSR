@@ -1,0 +1,137 @@
+import os
+import base64
+import json
+import random
+import pandas as pd
+from dotenv import load_dotenv
+from openai import OpenAI
+from tqdm import tqdm
+import concurrent.futures
+
+load_dotenv()
+
+# === CONFIGURATION ===
+MODEL_NAME = "Qwen/Qwen2.5-VL-72B-Instruct"
+QUERY_IMAGE_DIR = "../dataset/semi-aves/test"
+REFERENCE_IMAGE_DIR = "../dataset/semi-aves/human_selected_4shot"
+CSV_PATH = "../prediction_analysis_top5.csv"
+METADATA_JSON = "../dataset/semi-aves/semi-aves_metrics-LAION400M-updated.json"
+OUTPUT_CSV = "../qwen_output/qwen_multimodal_top5_1shot_results.csv"
+SKIPPED_LOG = "../error_logs/qwen_multimodal_top5_1shot_skipped.txt"
+TIMEOUT_SEC = 60
+
+client = OpenAI(
+    base_url="https://api.studio.nebius.com/v1/",
+    api_key=os.environ.get("NEBIUS_API_KEY")
+)
+
+# === Load common name → class ID mapping ===
+with open(METADATA_JSON, "r") as f:
+    id2info = json.load(f)
+
+sci_to_classid = {
+    v["most_common_name"].lower().strip(): int(k)
+    for k, v in id2info.items()
+}
+
+# === Helper Functions ===
+def encode_image(path):
+    with open(path, "rb") as f:
+        return base64.b64encode(f.read()).decode("utf-8")
+
+def get_one_image_from_class(class_id):
+    class_path = os.path.join(REFERENCE_IMAGE_DIR, str(class_id))
+    all_images = [f for f in os.listdir(class_path) if f.lower().endswith(('.jpg', '.jpeg', '.png'))]
+    if len(all_images) == 0:
+        raise ValueError(f"No images found in class {class_id}")
+    return encode_image(os.path.join(class_path, random.choice(all_images)))
+
+def build_multimodal_prompt(query_image, candidates):
+    """
+    candidates: list of tuples [(sci_name, img_base64), ...]
+    """
+    messages = [
+        {"type": "text", "text":
+         "You are a helpful assistant that identifies birds using a test image and visual references.\n\n"
+         "Step 1: Look at the first image — this is the bird we want to identify.\n"
+         "Step 2: Compare it to each of the 5 candidate species. Each candidate includes the species name and one example image.\n"
+         "Step 3: Select the most likely match and explain why.\n\n"
+         "Respond in this format:\n"
+         "Most Likely: [1, 2, 3, 4, or 5]\n"
+         "Reasoning: [your explanation here]"
+        },
+        {"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{query_image}"}}
+    ]
+
+    for idx, (name, img) in enumerate(candidates, 1):
+        messages.append({"type": "text", "text": f"Candidate {idx}: {name}"})
+        messages.append({"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{img}"}})
+    return messages
+
+# === Load and prepare dataframe ===
+df = pd.read_csv(CSV_PATH)
+for i in range(1, 6):
+    df[f"pred{i}_sci"] = df.get(f"pred{i}_sci", df[f"pred{i}_name"])
+
+skipped = []
+
+# === Run Multimodal Re-ranking ===
+for idx, row in tqdm(df.iterrows(), total=len(df)):
+    try:
+        image_path = os.path.join(QUERY_IMAGE_DIR, os.path.basename(row["filename"]))
+        if not os.path.exists(image_path):
+            skipped.append((row["filename"], "Missing test image"))
+            continue
+
+        query_img_base64 = encode_image(image_path)
+
+        # Get references for 5 candidates
+        candidates = []
+        for i in range(1, 6):
+            sci_name = row[f"pred{i}_sci"].lower().strip()
+            class_id = sci_to_classid.get(sci_name)
+            if class_id is None:
+                raise KeyError(f"Missing species: {sci_name}")
+            ref_img = get_one_image_from_class(class_id)
+            candidates.append((row[f"pred{i}_sci"], ref_img))
+
+        messages = build_multimodal_prompt(query_img_base64, candidates)
+
+        # Make Qwen call
+        try:
+            with concurrent.futures.ThreadPoolExecutor() as executor:
+                future = executor.submit(
+                    client.chat.completions.create,
+                    model=MODEL_NAME,
+                    messages=[{"role": "user", "content": messages}],
+                    temperature=0.4,
+                    max_tokens=900,
+                )
+                response = future.result(timeout=TIMEOUT_SEC)
+        except concurrent.futures.TimeoutError:
+            skipped.append((row["filename"], "Timeout during Qwen call"))
+            continue
+
+        # Save output
+        result_row = {
+            "image_path": row["filename"],
+            "pred1_sci": row["pred1_sci"],
+            "pred2_sci": row["pred2_sci"],
+            "pred3_sci": row["pred3_sci"],
+            "pred4_sci": row["pred4_sci"],
+            "pred5_sci": row["pred5_sci"],
+            "response": response.choices[0].message.content.strip()
+        }
+        pd.DataFrame([result_row]).to_csv(OUTPUT_CSV, mode="a", header=not os.path.exists(OUTPUT_CSV), index=False)
+
+    except Exception as e:
+        skipped.append((row["filename"], str(e)))
+        continue
+
+# === Save skipped items ===
+os.makedirs(os.path.dirname(SKIPPED_LOG), exist_ok=True)
+with open(SKIPPED_LOG, "w") as f:
+    for path, reason in skipped:
+        f.write(f"{path} - {reason}\n")
+
+print(f"\n✅ Done. Appended results to {OUTPUT_CSV}. Skipped {len(skipped)} cases.")

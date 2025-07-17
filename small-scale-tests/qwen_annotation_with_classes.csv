@@ -1,0 +1,373 @@
+test_id,prompt,image_paths,response,test_type,class_names,Correct?,Notes
+A1,You are shown 3 images. Describe the 2nd image.,"../dataset/semi-aves/test/5533.jpg, ../dataset/semi-aves/test/4789.jpg, ../dataset/semi-aves/test/245.jpg","The second image shows a small bird perched on a branch amidst a backdrop of tall, dry grasses. The bird has a distinctive black and white plumage pattern, with a black cap on its head, white cheeks, and a mix of black and white feathers on its body. Its beak is short and pointed, suitable for catching insects or small prey. The setting appears to be a natural habitat, possibly near a wetland or marshy area, given the presence of the grasses. The overall atmosphere of the image is somewhat muted, likely due to overcast weather or mist.",Positional (3 images),"Mexican Chickadee, Mexican Chickadee, Hardhead",,
+A1,You are shown 3 images. Describe the 2nd image.,"../dataset/semi-aves/test/4579.jpg, ../dataset/semi-aves/test/1541.jpg, ../dataset/semi-aves/test/1983.jpg","The second image depicts a serene wetland scene with a small body of water surrounded by sandy and grassy areas. Several birds, likely seagulls or similar waterfowl, are scattered across the water and along the edges of the wetland. The water reflects the surrounding environment, creating a calm and natural atmosphere. The area appears to be a coastal or estuarine habitat, suitable for various bird species.",Positional (3 images),"Red-necked Phalarope, Red-necked Phalarope, Wilson's Plover",,
+A1,You are shown 3 images. Describe the 2nd image.,"../dataset/semi-aves/test/89.jpg, ../dataset/semi-aves/test/6751.jpg, ../dataset/semi-aves/test/598.jpg","The second image shows a pelican swimming on calm water. The bird has a white body with black markings on its wings and a long, pale beak. Its reflection is visible in the water, which appears smooth with gentle ripples around the bird. The lighting suggests it might be early morning or late afternoon, giving the scene a serene atmosphere.",Positional (3 images),"Australian Pelican, Australian Pelican, Tufted Duck",,
+A1,You are shown 3 images. Describe the 2nd image.,"../dataset/semi-aves/test/7618.jpg, ../dataset/semi-aves/test/7004.jpg, ../dataset/semi-aves/test/1872.jpg","The second image shows a small bird perched on a thin branch amidst a backdrop of dense green foliage. The bird appears to be blending into its environment, with muted colors that help it camouflage among the leaves and branches. The background is slightly out of focus, emphasizing the bird as the main subject. The setting suggests a natural habitat, possibly a forest or shrubland area.",Positional (3 images),"Lazuli Bunting, Lazuli Bunting, Bonaparte's Gull",,
+A1,You are shown 3 images. Describe the 2nd image.,"../dataset/semi-aves/test/6524.jpg, ../dataset/semi-aves/test/1285.jpg, ../dataset/semi-aves/test/2258.jpg","The second image shows a small bird standing on a patch of vibrant green grass. The bird has a dark head, a light-colored beak, and a body with a mix of brown and gray feathers. Its posture suggests it might be foraging or observing its surroundings. The background is filled with lush, tall grass blades, creating a natural and serene setting.",Positional (3 images),"Dark-eyed Junco, Dark-eyed Junco, Short-toed Treecreeper",,
+A2,You are shown 5 images. Describe the 4th image.,"../dataset/semi-aves/test/2424.jpg, ../dataset/semi-aves/test/2694.jpg, ../dataset/semi-aves/test/47.jpg, ../dataset/semi-aves/test/5014.jpg, ../dataset/semi-aves/test/857.jpg","The fourth image shows a bird perched on a branch within a dense, leafy environment. The bird appears to be partially obscured by the surrounding foliage, blending into the greenery. The branches and leaves create a natural frame around the bird, which seems to be observing its surroundings. The lighting suggests it might be daytime with sunlight filtering through the trees. The overall scene conveys a sense of tranquility in a forested or wooded area.",Positional (5 images),"Martial Eagle, Black-legged Kittiwake, Brown Shrike, House Sparrow, Boat-tailed Grackle",,
+A2,You are shown 5 images. Describe the 4th image.,"../dataset/semi-aves/test/4183.jpg, ../dataset/semi-aves/test/188.jpg, ../dataset/semi-aves/test/1485.jpg, ../dataset/semi-aves/test/1618.jpg, ../dataset/semi-aves/test/3997.jpg","The fourth image depicts a serene scene of a body of water, likely a pond or lake, with several ducks swimming on its surface. The water is calm, reflecting the surrounding environment. In the background, there is a fountain spraying water into the air, adding a dynamic element to the otherwise tranquil setting. The shoreline is visible in the distance, lined with greenery and possibly some structures. The overall atmosphere of the image is peaceful and natural.",Positional (5 images),"Kentish Plover, Black-throated Blue Warbler, Lamprotornis nitens, Tufted Duck, Short-toed Treecreeper",,
+A2,You are shown 5 images. Describe the 4th image.,"../dataset/semi-aves/test/7155.jpg, ../dataset/semi-aves/test/4866.jpg, ../dataset/semi-aves/test/1624.jpg, ../dataset/semi-aves/test/3561.jpg, ../dataset/semi-aves/test/7920.jpg","The fourth image shows a small bird perched on a tree branch in a wooded area. The bird has a black and white coloration with a distinctive black cap, white cheeks, and a black bib. Its wings have white patches that contrast with its dark feathers. The background consists of tree trunks and branches, suggesting a forested environment. The bird appears to be alert and is looking towards the camera.",Positional (5 images),"Mexican Chickadee, Hooded Warbler, Red-throated Ant Tanager, Black-throated Blue Warbler, Mallard",,
+A2,You are shown 5 images. Describe the 4th image.,"../dataset/semi-aves/test/16.jpg, ../dataset/semi-aves/test/4445.jpg, ../dataset/semi-aves/test/3845.jpg, ../dataset/semi-aves/test/7132.jpg, ../dataset/semi-aves/test/553.jpg","The fourth image shows a bird perched on a branch. The bird has a mottled brown and gray plumage that provides excellent camouflage against the bark of the tree. Its eyes are closed, giving it a resting or sleeping appearance. The background is slightly blurred, with more branches and foliage visible, suggesting a natural woodland setting. The bird's posture is upright, and its feathers appear smooth and well-groomed.",Positional (5 images),"Goliath Heron, Brewer's Sparrow, Saltator coerulescens, Eastern Whip-poor-will, Rook",,
+A2,You are shown 5 images. Describe the 4th image.,"../dataset/semi-aves/test/4673.jpg, ../dataset/semi-aves/test/1499.jpg, ../dataset/semi-aves/test/2834.jpg, ../dataset/semi-aves/test/7256.jpg, ../dataset/semi-aves/test/4612.jpg","The fourth image shows a hummingbird perched on a wooden fence post in front of a red hummingbird feeder. The feeder has a clear glass body with a red plastic flower-shaped feeding port. In the background, there is a residential area with houses and greenery. The scene appears to be outdoors during the daytime.",Positional (5 images),"Great Kiskadee, Black-and-white Warbler, Palm Warbler, Black-chinned Hummingbird, Jynx torquilla",,
+A3,You are shown 7 images. Describe the 3rd image.,"../dataset/semi-aves/test/7936.jpg, ../dataset/semi-aves/test/4554.jpg, ../dataset/semi-aves/test/5880.jpg, ../dataset/semi-aves/test/4797.jpg, ../dataset/semi-aves/test/7724.jpg, ../dataset/semi-aves/test/2274.jpg, ../dataset/semi-aves/test/881.jpg","The third image shows a serene natural landscape featuring a body of water, likely a lake or pond, surrounded by grassy hills. In the foreground, there is a bird standing on the grass near the water's edge. The bird appears to be a type of gull, characterized by its white plumage and gray wings. The scene is bathed in soft sunlight, suggesting it might be early morning or late afternoon. The overall atmosphere is calm and picturesque.",Positional (7 images),"Ruffed Grouse, Southern Masked Weaver, Long-tailed Jaeger, Black-headed Heron, Common Whitethroat, Ashy Drongo, Painted Stork",,
+A3,You are shown 7 images. Describe the 3rd image.,"../dataset/semi-aves/test/4916.jpg, ../dataset/semi-aves/test/7518.jpg, ../dataset/semi-aves/test/689.jpg, ../dataset/semi-aves/test/4718.jpg, ../dataset/semi-aves/test/2396.jpg, ../dataset/semi-aves/test/4774.jpg, ../dataset/semi-aves/test/3072.jpg","The third image shows a seagull in flight over a body of water. The bird is captured mid-flight with its wings spread, and it appears to be gliding smoothly. The background consists of calm blue water, suggesting a serene environment, possibly a lake or sea. The lighting indicates that the photo was taken during daylight hours.",Positional (7 images),"Gilded Flicker, Mexican Chickadee, Bonaparte's Gull, Orange-chinned Parakeet, Swainson's Thrush, Mallard, Ferruginous Hawk",,
+A3,You are shown 7 images. Describe the 3rd image.,"../dataset/semi-aves/test/3487.jpg, ../dataset/semi-aves/test/4393.jpg, ../dataset/semi-aves/test/5333.jpg, ../dataset/semi-aves/test/6743.jpg, ../dataset/semi-aves/test/6747.jpg, ../dataset/semi-aves/test/7834.jpg, ../dataset/semi-aves/test/69.jpg","The third image shows two small birds perched on branches amidst dense green foliage. The birds appear to be of the same species, with grayish-brown plumage and lighter underbellies. They are surrounded by lush leaves, creating a natural and serene environment. The lighting suggests it might be daytime, with sunlight filtering through the leaves.",Positional (7 images),"Black-naped Oriole, Bean Goose, Saltator coerulescens, Snowy Egret, Grey-headed Chachalaca, Red-rumped Swallow, Green Jay",,
+A3,You are shown 7 images. Describe the 3rd image.,"../dataset/semi-aves/test/2180.jpg, ../dataset/semi-aves/test/265.jpg, ../dataset/semi-aves/test/5667.jpg, ../dataset/semi-aves/test/4849.jpg, ../dataset/semi-aves/test/5319.jpg, ../dataset/semi-aves/test/502.jpg, ../dataset/semi-aves/test/2625.jpg","The third image (Image 3) shows a bird perched on a branch with green leaves. The bird has a distinctive appearance, featuring a large, curved beak that is orange in color. Its body is primarily black and white, with a white chest and black wings and tail. The background consists of a clear blue sky, suggesting it was taken during the daytime. The bird appears to be a type of hornbill.",Positional (7 images),"Green Jay, Grasshopper Sparrow, Crowned Hornbill, Magellanic Penguin, American Crow, Short-toed Treecreeper, Painted Stork",,
+A3,You are shown 7 images. Describe the 3rd image.,"../dataset/semi-aves/test/6304.jpg, ../dataset/semi-aves/test/5466.jpg, ../dataset/semi-aves/test/358.jpg, ../dataset/semi-aves/test/5977.jpg, ../dataset/semi-aves/test/6928.jpg, ../dataset/semi-aves/test/4083.jpg, ../dataset/semi-aves/test/7834.jpg","The third image shows a woodpecker perched on a tree branch. The bird has distinctive black and white plumage with red markings on its head, which is characteristic of certain woodpecker species. The background consists of green foliage, suggesting a natural forest or woodland habitat. The bird appears to be resting or observing its surroundings.",Positional (7 images),"Brown Shrike, Lesser Whitethroat, Syrian Woodpecker, Pileated Woodpecker, Saltator coerulescens, Dunnock, Red-rumped Swallow",,
+B1,You are shown 3 images. Compare them and describe key visual differences.,"../dataset/semi-aves/test/3710.jpg, ../dataset/semi-aves/test/3605.jpg, ../dataset/semi-aves/test/5843.jpg","The three images depict different animals in distinct environments, with varying compositions and contexts:
+
+1. **First Image (Left):** This image shows a penguin resting inside a burrow or nest made of soil and grass. The environment is earthy and enclosed, suggesting a natural habitat where the penguin might be nesting or seeking shelter. The lighting is soft and diffused, indicating an overcast sky or shaded area.
+
+2. **Second Image (Middle):** This image features another penguin standing on a rocky terrain under clear skies. The setting is more open compared to the first image, with visible rocks, a pipe, and some man-made structures in the background. The lighting is bright and direct, suggesting a sunny day. The penguin appears to be outside its burrow, possibly foraging or exploring.
+
+3. **Third Image (Right):** This image captures a bird, likely a gull, in flight against a plain blue sky. Unlike the previous two images, this one focuses solely on the bird without any visible ground or surrounding environment. The bird's wings are spread wide, and it is depicted mid-flight, emphasizing motion and freedom. The background is a uniform blue, which contrasts sharply with the bird's white and gray plumage.
+
+### Key Visual Differences:
+- **Subjects:** The first two images feature penguins, while the third image shows a flying bird.
+- **Environments:** The first image has an enclosed, earthy setting; the second image has an open, rocky landscape; and the third image has a clear blue sky as the backdrop.
+- **Lighting:** The first image has softer, diffused light; the second image has bright, direct sunlight; and the third image has even lighting typical of a clear sky.
+- **Activity:** The penguin in the first image is resting, the penguin in the second image is standing still, and the bird in the third image is actively flying.",Comparison (3 similar),"Magellanic Penguin, Magellanic Penguin, Black-legged Kittiwake",,
+B1,You are shown 3 images. Compare them and describe key visual differences.,"../dataset/semi-aves/test/5419.jpg, ../dataset/semi-aves/test/4318.jpg, ../dataset/semi-aves/test/1421.jpg","The three images provided show different scenes involving birds, each with distinct characteristics:
+
+1. **First Image**: This image features a single bird perched on a branch amidst pine needles. The bird appears to be small with a slender build, light-colored underparts, and darker markings on its wings and head. The background is filled with green pine needles and branches, suggesting a forested or wooded environment.
+
+2. **Second Image**: In this scene, a bird is on the ground in a grassy area. The bird has a more robust body compared to the one in the first image, with a mix of brown and white plumage that provides camouflage against the grass. The setting is an open field or lawn, which contrasts with the dense foliage seen in the first image.
+
+3. **Third Image**: This image shows a group of black birds perched on bare tree branches. The birds appear larger and have a uniform dark coloration. The tree lacks leaves, indicating it might be winter or late autumn. The sky is overcast, giving the image a grayish tone, which differs from the brighter and more vibrant colors in the first two images.
+
+In summary, the key visual differences lie in the number of birds (one vs. many), their appearance (size, coloration, and build), the environment (wooded vs. grassy vs. bare branches), and the overall lighting and mood of the scenes.",Comparison (3 similar),"Savannah Sparrow, Savannah Sparrow, Rook",,
+B1,You are shown 3 images. Compare them and describe key visual differences.,"../dataset/semi-aves/test/6226.jpg, ../dataset/semi-aves/test/4761.jpg, ../dataset/semi-aves/test/2303.jpg","The three images depict different birds in distinct settings, with notable differences in their environments, the birds' appearances, and the overall composition:
+
+1. **First Image**: This image shows a bird perched on a chain-link fence against a backdrop of a barren, rocky landscape under a clear sky. The bird appears dark-colored, possibly black or dark blue, and is relatively small in size compared to the fence structure. The setting suggests an arid or desert-like environment.
+
+2. **Second Image**: In contrast, this image features a bird with a yellowish-green body and a slender beak, perched on a flowering plant with vibrant purple blossoms. The background consists of lush green foliage, indicating a more tropical or garden-like habitat. The bird's bright coloration stands out vividly against the greenery and flowers.
+
+3. **Third Image**: This image captures a bird perched on a bare branch, with a plain, overcast sky as the background. The bird has a mottled brown and white plumage, blending somewhat with the muted tones of the branch and the sky. The scene lacks the vibrant colors seen in the second image and the stark contrasts present in the first image, giving it a more subdued appearance.
+
+In summary, the key visual differences lie in the birds' appearances (color, size, and markings), the environments they inhabit (arid vs. lush vs. plain), and the overall mood conveyed by each image (desert-like, vibrant, and subdued).",Comparison (3 similar),"Purple Sunbird, Purple Sunbird, Northern Rough-winged Swallow",,
+B1,You are shown 3 images. Compare them and describe key visual differences.,"../dataset/semi-aves/test/1948.jpg, ../dataset/semi-aves/test/7617.jpg, ../dataset/semi-aves/test/3213.jpg","The three images provided show different subjects and settings, with distinct visual characteristics:
+
+1. **Image 1**: This image features a single bird perched on a wire against a clear blue sky. The bird appears to be a swallow or similar species, characterized by its streamlined body, forked tail, and pointed wings. The background is minimalistic, with no other elements besides the wire and the sky.
+
+2. **Image 2**: Similar to Image 1, this image also shows a bird perched on wires, but it is a different species. The bird has a more robust build compared to the one in Image 1, with a broader chest and a less streamlined shape. Its plumage includes shades of brown and white, and it seems to have a slightly thicker beak. The background is again a clear blue sky, but the presence of multiple wires creates a different composition.
+
+3. **Image 3**: This image contrasts sharply with the first two as it depicts a group of swans and their cygnets (young swans) swimming in a calm body of water surrounded by lush greenery. The scene is much more complex, featuring multiple subjects, reflections on the water's surface, and a natural habitat with grasses and shrubs. The color palette is richer, with greens, yellows, and whites dominating the scene, creating a serene and pastoral atmosphere.
+
+**Key Visual Differences**:
+- **Subjects**: Images 1 and 2 focus on individual birds, while Image 3 showcases a group of swans and their young.
+- **Setting**: Images 1 and 2 have simple backgrounds consisting mainly of the sky and wires, whereas Image 3 presents a detailed natural environment with water, vegetation, and reflections.
+- **Composition**: Images 1 and 2 emphasize the birds against a stark backdrop, while Image 3 captures a wider scene that includes the interaction between the swans and their surroundings.
+- **Color Palette**: Images 1 and 2 feature cooler tones dominated by blues and grays, while Image 3 incorporates warmer and more varied colors like greens and yellows.",Comparison (3 similar),"Northern Rough-winged Swallow, Northern Rough-winged Swallow, Trumpeter Swan",,
+B1,You are shown 3 images. Compare them and describe key visual differences.,"../dataset/semi-aves/test/2285.jpg, ../dataset/semi-aves/test/7218.jpg, ../dataset/semi-aves/test/6949.jpg","The three images depict different scenes involving birds, each with distinct characteristics:
+
+1. **Image 1** shows two small green birds perched on thin, bare branches against a bright sky background. The branches appear to be intertwined and create a complex pattern. The birds are relatively small in the frame and are not the primary focus of the image.
+
+2. **Image 2** features two green birds perched on what appears to be an electrical wire or cable attached to a wooden post. The setting is more urban or suburban, as indicated by the concrete ground and the structure of the post. The birds are more prominent in this image compared to the first one, and their vibrant green color stands out against the neutral tones of the surroundings.
+
+3. **Image 3** captures a single bird clinging to the side of a tree trunk. This bird has a mix of brown, white, and black feathers, which contrasts with the smooth, light-colored bark of the tree. The bird's posture suggests it may be searching for food or exploring the tree. The background is blurred, drawing attention to the bird and the tree.
+
+Key visual differences:
+- **Birds**: The first two images feature green birds, while the third image shows a bird with a mix of brown, white, and black feathers.
+- **Setting**: Image 1 is set against a natural backdrop with bare branches, Image 2 is in an urban/suburban environment with a wooden post and wires, and Image 3 focuses on a tree trunk in a natural setting.
+- **Focus**: In Image 1, the birds are smaller and less prominent, whereas in Images 2 and 3, the birds are the main subjects and are more clearly visible.
+- **Activity**: The birds in Images 1 and 2 appear to be resting or perched, while the bird in Image 3 seems to be actively interacting with its environment.",Comparison (3 similar),"Orange-chinned Parakeet, Orange-chinned Parakeet, Certhia familiaris",,
+B2,You are shown 5 images. Compare them and describe key visual differences.,"../dataset/semi-aves/test/495.jpg, ../dataset/semi-aves/test/308.jpg, ../dataset/semi-aves/test/4479.jpg, ../dataset/semi-aves/test/2847.jpg, ../dataset/semi-aves/test/7360.jpg","The five images showcase different birds in various environments, each with distinct characteristics:
+
+1. **Image 1**: This image features a bird on the ground amidst dry leaves and debris. The bird has a grey head, an orange breast, and a slender body. Its posture suggests it may be foraging or searching for food.
+
+2. **Image 2**: The bird here is perched on a moss-covered surface. It has a pale yellowish underbelly, brownish-grey wings, and a slender build. The background is predominantly green due to the moss, creating a natural and earthy setting.
+
+3. **Image 3**: This bird is perched on a thin branch against a blurred green backdrop. It has a white belly, a brown back, and a distinctive black mask-like marking around its eyes. The bird appears alert and is facing sideways.
+
+4. **Image 4**: The bird in this image is perched on a tree branch surrounded by foliage. It has a dark blue-grey coloration on its upper parts and a white underside. The background is out of focus, emphasizing the bird as the main subject.
+
+5. **Image 5**: This image shows a brightly colored bird with a yellow belly, a grey-blue back, and a black mask across its eyes. It is perched on a leafy structure with a blurred green and blue background, suggesting a sunny outdoor environment.
+
+### Key Visual Differences:
+- **Environment**: The first image has a ground-level view with dry leaves, while the others feature birds on branches or mossy surfaces. The backgrounds vary from earthy tones to lush greens.
+- **Bird Characteristics**: Each bird has unique color patterns and markings. For example, the bird in Image 1 has an orange breast, whereas the bird in Image 5 has a bright yellow belly.
+- **Posture and Behavior**: The birds exhibit different postures—some appear to be foraging (Image 1), while others seem to be resting or observing their surroundings (Images 2, 3, 4, and 5).
+- **Lighting and Focus**: The lighting varies, with some images having softer, diffused light (Images 1 and 2) and others featuring brighter, more vivid colors (Images 3, 4, and 5). The focus also differs, with some images having a sharper foreground and blurred background.",Comparison (5 similar),"Sitta europaea, Rock Pipit, Grasshopper Sparrow, Black-throated Blue Warbler, Great Kiskadee",,
+B2,You are shown 5 images. Compare them and describe key visual differences.,"../dataset/semi-aves/test/3043.jpg, ../dataset/semi-aves/test/3484.jpg, ../dataset/semi-aves/test/7066.jpg, ../dataset/semi-aves/test/4049.jpg, ../dataset/semi-aves/test/5199.jpg","The five images showcase different birds in various settings, each with distinct characteristics:
+
+1. **Image 1**: This image features a gull standing on one leg near water, with its reflection visible on the wet surface. The bird has a light grey body, white head, and dark wingtips. The background is a mix of water and pebbles.
+
+2. **Image 2**: Here we see a small bird perched on a wire fence. It has a slender build with a long tail, and its plumage includes shades of brown and white. The background is blurred greenery, suggesting a natural habitat.
+
+3. **Image 3**: This image shows a black bird with a glossy sheen, perched on a tree branch. The bird's beak is slightly open, and it appears to be in a forested area with dense foliage around it.
+
+4. **Image 4**: A bird is depicted entering or exiting a wooden birdhouse. The bird has a dark blue-grey coloration and is captured mid-motion. The setting is a man-made structure, likely in a residential area.
+
+5. **Image 5**: This image captures a kingfisher perched on a bare branch. The bird has vibrant blue and white plumage, with a sharp, pointed beak. The background is a pale sky, emphasizing the bird's bright colors.
+
+**Key Visual Differences**:
+- **Setting**: Images vary from natural environments (water, trees, branches) to human-made structures (birdhouse, fence).
+- **Bird Types**: The images feature diverse bird species, including a gull, a sparrow-like bird, a black bird, a kingfisher, and a bird entering a birdhouse.
+- **Color Palette**: The images differ in their dominant colors, ranging from muted tones in the first two images to more vivid hues in the third and fifth images.
+- **Activity**: The birds are engaged in different activities: resting, perching, flying, and entering a nest box.",Comparison (5 similar),"Mew Gull, Lark Sparrow, Ashy Drongo, Purple Martin, Woodland Kingfisher",,
+B2,You are shown 5 images. Compare them and describe key visual differences.,"../dataset/semi-aves/test/1824.jpg, ../dataset/semi-aves/test/6306.jpg, ../dataset/semi-aves/test/7517.jpg, ../dataset/semi-aves/test/950.jpg, ../dataset/semi-aves/test/6845.jpg","The five images showcase different birds in various settings, each with distinct characteristics:
+
+1. **Image 1**: This image features a bird with a speckled brown body, a white face with red markings around the eyes, and a short beak. It is perched on a branch surrounded by green foliage, suggesting a natural habitat.
+
+2. **Image 2**: The second image shows a black and white woodpecker with a prominent red patch on its head. It is clinging to the side of a tree trunk, actively pecking at the bark, which indicates it might be searching for insects or creating a nesting hole.
+
+3. **Image 3**: Here we see two birds perched on branches. They have a greyish-brown coloration with yellow underbellies. The background includes green leaves and some wires, indicating a more urban or suburban environment compared to the dense foliage in Image 1.
+
+4. **Image 4**: This image captures a bird with bright yellow plumage and a long tail, possibly an oriole, sitting near a nest made of twigs and other materials. The nest is nestled within a tree, and the bird appears to be tending to it.
+
+5. **Image 5**: The final image depicts a bird with iridescent blue and green feathers on its back and wings, and orange on its chest. It is perched on what looks like a metal railing, likely in a man-made setting such as a park or urban area.
+
+**Key Visual Differences**:
+- **Bird Species and Coloration**: Each bird has unique colors and patterns, from the speckled brown and white bird in Image 1 to the vibrant yellow bird in Image 4.
+- **Environment**: The settings vary from dense greenery (Images 1, 3, and 4) to a tree trunk (Image 2) and a man-made structure (Image 5).
+- **Behavior**: The birds exhibit different behaviors: perching calmly (Images 1, 3, and 5), actively pecking at a tree (Image 2), and tending to a nest (Image 4).",Comparison (5 similar),"Spot-breasted Woodpecker, Pileated Woodpecker, Great Kiskadee, Black-naped Oriole, Superb Starling",,
+B2,You are shown 5 images. Compare them and describe key visual differences.,"../dataset/semi-aves/test/227.jpg, ../dataset/semi-aves/test/3175.jpg, ../dataset/semi-aves/test/5009.jpg, ../dataset/semi-aves/test/3817.jpg, ../dataset/semi-aves/test/6195.jpg","The five images provided showcase different subjects, settings, and visual characteristics:
+
+1. **Image 1**: This image features a small bird perched on tree branches. The bird has a distinctive pattern with a white belly, black and brown markings on its back, and a reddish-brown streak on its head. The background is blurred, showing a natural outdoor setting with bare branches, suggesting it might be taken during late autumn or winter.
+
+2. **Image 2**: This image shows a Black-winged Stilt wading bird standing in shallow water. The bird has long pink legs, a black body, and a white neck and head. The background is a calm water surface, creating a serene and minimalist scene. The reflection of the bird can be seen faintly on the water's surface.
+
+3. **Image 3**: This image captures a bird in flight against a plain sky. The bird appears to have dark wings and a lighter body, but details are not very clear due to the distance and the small size of the bird in the frame. The sky is overcast, giving the image a muted tone.
+
+4. **Image 4**: This image displays a white bird with black markings sitting on a wire. The bird has a sharp beak and a compact body. The background is out of focus, with warm tones indicating foliage or vegetation. The lighting suggests it was taken during daylight hours with natural light.
+
+5. **Image 5**: This image depicts an urban environment with a building facade, air conditioning units, and tangled electrical wires. There is no bird visible in this image. The colors are muted, and the overall atmosphere is more industrial compared to the natural settings of the other images.
+
+### Key Visual Differences:
+- **Subjects**: Images 1, 2, 3, and 4 feature birds, each in different poses (perched, standing, flying, and sitting). Image 5 does not include any birds and instead focuses on an urban setting.
+- **Backgrounds**: Images 1, 2, and 4 have natural backgrounds (trees, water, and foliage), while Image 3 has a plain sky background, and Image 5 has an urban background.
+- **Lighting and Atmosphere**: Images 1, 2, and 4 have brighter, more natural lighting, whereas Image 3 has a more subdued, overcast feel. Image 5 has a neutral, somewhat dim lighting typical of urban environments.
+- **Composition**: Images 1, 2, and 4 focus closely on the birds, while Image 3 shows a distant bird in flight. Image 5 is composed around architectural elements rather than wildlife.",Comparison (5 similar),"Rustic Bunting, Black-winged Stilt, Long-tailed Jaeger, Masked Water Tyrant, Black Drongo",,
+B2,You are shown 5 images. Compare them and describe key visual differences.,"../dataset/semi-aves/test/7724.jpg, ../dataset/semi-aves/test/3102.jpg, ../dataset/semi-aves/test/362.jpg, ../dataset/semi-aves/test/754.jpg, ../dataset/semi-aves/test/7095.jpg","The five images showcase different birds, each with distinct characteristics:
+
+1. **Image 1**: This bird has a slender build with a long tail and appears to be perched atop a bush. Its plumage is primarily light brown or beige with subtle darker markings. The background is a clear sky, suggesting an open habitat.
+
+2. **Image 2**: This bird has a more robust body with a striking black-and-white pattern. It features a white throat patch, a black mask around the eyes, and a white belly. The bird is perched on a branch surrounded by green foliage, indicating a forested environment.
+
+3. **Image 3**: This bird is a kingfisher, identifiable by its large head, strong beak, and vibrant coloration. It has a grey-blue back, a white neck ring, and a rusty-orange breast. The bird is perched in a tree with dense green leaves, suggesting a tropical or subtropical habitat near water.
+
+4. **Image 4**: This bird is a woodpecker, characterized by its strong, pointed beak and zygodactyl feet (two toes pointing forward and two backward) adapted for clinging to tree trunks. Its plumage includes black, white, and red patches. The bird is shown clinging to a tree trunk, indicating a woodland habitat.
+
+5. **Image 5**: This small bird has a compact body with soft, fluffy feathers that appear slightly disheveled. Its plumage is primarily olive-green with hints of yellow. The bird is perched on a metal grid, possibly part of a feeder or cage, suggesting a human-influenced environment.
+
+Key visual differences include:
+- **Size and Shape**: The birds vary from small and compact (Image 5) to larger and more robust (Images 2 and 3).
+- **Coloration**: The birds display a range of colors, from muted browns and greys (Image 1) to vibrant blues, oranges, and whites (Image 3).
+- **Habitat**: The backgrounds suggest different environments, from open skies and bushes (Image 1) to dense foliage and trees (Images 2, 3, and 4), and a human-made structure (Image 5).
+- **Behavior**: The birds are shown in various postures, from perching calmly (Images 1, 2, and 3) to clinging to a tree trunk (Image 4).",Comparison (5 similar),"Common Whitethroat, Pied Fantail, Amazon Kingfisher, Syrian Woodpecker, Acadian Flycatcher",,
+B3,You are shown 3 images. Compare them and describe key visual differences.,"../dataset/semi-aves/test/2109.jpg, ../dataset/semi-aves/test/1151.jpg, ../dataset/semi-aves/test/7577.jpg","The three images provided show different birds in distinct settings, with notable differences in their appearance, behavior, and environment:
+
+1. **First Image (Two Birds in Flight)**:
+   - **Subjects**: Two birds are captured mid-flight against a clear blue sky.
+   - **Behavior**: Both birds appear to be flying, with wings extended and angled differently, suggesting movement through the air.
+   - **Appearance**: The birds have white bodies with gray wings and black-tipped tails. Their heads are dark, and they have slender beaks.
+   - **Environment**: The background is a plain, unobstructed sky, emphasizing the birds' flight.
+
+2. **Second Image (Single Bird in Flight)**:
+   - **Subjects**: A single bird is depicted in flight.
+   - **Behavior**: The bird's wings are fully extended, indicating it is gliding or soaring.
+   - **Appearance**: Similar to the birds in the first image, this bird has a white body, gray wings, and a dark head. However, its posture suggests a more relaxed glide compared to the dynamic flight of the birds in the first image.
+   - **Environment**: The background is also a clear blue sky, similar to the first image but with no other birds present.
+
+3. **Third Image (Bird Perched on a Branch)**:
+   - **Subjects**: A single bird is perched on a branch.
+   - **Behavior**: The bird is stationary, resting on a tree branch.
+   - **Appearance**: This bird has a different coloration compared to the others. It features a mix of white, black, and yellow feathers, with a distinctive black mask-like pattern around its eyes and a thicker beak.
+   - **Environment**: The setting includes branches and foliage, indicating a terrestrial habitat rather than an open sky. The background is blurred, drawing attention to the bird.
+
+**Key Visual Differences**:
+- **Activity**: The first two images show birds in flight, while the third image shows a bird at rest.
+- **Coloration and Features**: The birds in the first two images share similar plumage (white, gray, and black), whereas the bird in the third image has a unique combination of white, black, and yellow feathers.
+- **Setting**: The first two images feature a clear sky as the backdrop, emphasizing the birds' aerial activity, while the third image is set in a natural, wooded environment.","Comparison ([A, A, B])","Whiskered Tern, Whiskered Tern, Myiodynastes luteiventris",,
+B3,You are shown 3 images. Compare them and describe key visual differences.,"../dataset/semi-aves/test/3022.jpg, ../dataset/semi-aves/test/6407.jpg, ../dataset/semi-aves/test/2057.jpg","The three images showcase different birds in distinct settings, with notable visual differences:
+
+1. **Bird Species and Behavior**:
+   - The first image features a bird of prey, likely a hawk or eagle, captured mid-flight against a clear blue sky. Its wings are fully extended, and it appears to be soaring.
+   - The second image also shows a bird of prey, possibly the same species as the first, but this one is gliding with its wings slightly angled downward, suggesting a different phase of flight.
+   - The third image depicts a wading bird, such as a sandpiper or similar shorebird, standing in shallow water. It is not in flight but rather foraging or resting.
+
+2. **Background and Environment**:
+   - The first two images have a plain blue sky background, emphasizing the birds' flight and creating a sense of openness and freedom.
+   - The third image has a more complex background featuring water, ripples, and submerged logs, indicating a wetland or coastal habitat.
+
+3. **Lighting and Color**:
+   - The lighting in the first two images is bright and even, highlighting the birds' plumage and the contrast between their feathers and the sky.
+   - The third image has softer lighting, with the water reflecting light and creating a bluish tone that complements the bird's earthy colors.
+
+4. **Perspective and Composition**:
+   - The first two images focus closely on the birds in flight, capturing dynamic motion and detail in their wings and bodies.
+   - The third image provides a wider view, including the bird within its environment, which adds context and a sense of place.","Comparison ([A, A, B])","Ferruginous Hawk, Ferruginous Hawk, Marbled Godwit",,
+B3,You are shown 3 images. Compare them and describe key visual differences.,"../dataset/semi-aves/test/3957.jpg, ../dataset/semi-aves/test/485.jpg, ../dataset/semi-aves/test/6041.jpg","The three images depict different birds in distinct environments, with notable differences in their appearance and surroundings:
+
+1. **First Image**: This image shows a bird with bright orange plumage on its head and chest, contrasting with its black beak and dark wings. It is perched on a branch near a nest made of green vegetation, suggesting it may be a weaver bird. The background consists of lush green foliage, indicating a forested or wooded habitat.
+
+2. **Second Image**: The bird here has a more subdued coloration, with a pale yellowish-green body and a brownish head. Its beak is a lighter shade compared to the first bird. It is perched on a thin branch against a plain, light-colored background that lacks any significant detail, giving the impression of an open or barren area.
+
+3. **Third Image**: This bird has a more earthy tone, with a mix of brown and beige feathers, blending well with the sandy ground it stands on. It appears to be a smaller bird with a slender build and a short tail. The environment is arid, with sparse vegetation, suggesting a desert or semi-desert habitat.
+
+In summary, the key visual differences lie in the birds' colors and patterns, their respective habitats (wooded, open/plain, and arid), and the overall composition of each photograph.","Comparison ([A, A, B])","Village Weaver, Village Weaver, Northern Wheatear",,
+B3,You are shown 3 images. Compare them and describe key visual differences.,"../dataset/semi-aves/test/5225.jpg, ../dataset/semi-aves/test/1464.jpg, ../dataset/semi-aves/test/561.jpg","The three images depict different scenes involving birds, each with distinct characteristics:
+
+1. **Image 1**: This image shows a bird in the process of landing or taking off from water. The bird is captured mid-action, with its wings partially spread and feet touching the water's surface, creating splashes. The background consists of rippling water, suggesting a natural aquatic environment.
+
+2. **Image 2**: This image features two birds in flight against a clear sky. The birds are positioned side by side, with their wings fully extended, showcasing their streamlined bodies adapted for flying. The background is a plain, light-colored sky, emphasizing the birds' motion and form.
+
+3. **Image 3**: This image portrays a bird perched on a branch amidst foliage. The bird appears stationary, with its body facing forward and its head turned slightly to the side. The background includes various branches and leaves, indicating a forested or wooded habitat.
+
+### Key Visual Differences:
+- **Action and Environment**:
+  - Image 1 focuses on a dynamic moment involving water interaction.
+  - Image 2 captures birds in flight against an open sky.
+  - Image 3 shows a bird at rest within a dense, leafy environment.
+
+- **Bird Characteristics**:
+  - The bird in Image 1 has a larger size and is likely a waterfowl species.
+  - The birds in Image 2 have long, pointed wings suited for sustained flight.
+  - The bird in Image 3 is smaller and has features typical of a songbird or passerine.
+
+- **Background and Setting**:
+  - Image 1 has a water-based setting with visible ripples and splashes.
+  - Image 2 has a minimalist background of the sky.
+  - Image 3 is set in a natural, tree-filled environment with branches and leaves.","Comparison ([A, A, B])","Common Merganser, Common Merganser, Grey Warbler",,
+B3,You are shown 3 images. Compare them and describe key visual differences.,"../dataset/semi-aves/test/5060.jpg, ../dataset/semi-aves/test/7532.jpg, ../dataset/semi-aves/test/2000.jpg","The three images provided show different scenes with distinct subjects and settings:
+
+1. **Image 1** features two geese on a grassy field. The geese are the main focus, and they appear to be walking or standing on the ground. The background is a simple expanse of green grass with some patches of brown soil, suggesting a natural or park-like environment. The lighting is even, indicating daytime.
+
+2. **Image 2** depicts a group of birds, likely geese or ducks, gathered near a body of water. The scene includes both land and water elements, with the birds standing on the shore and some partially in the water. The background shows a mix of vegetation and earthy tones, giving the impression of a wetland or riverbank habitat. The lighting suggests it could be early morning or late afternoon due to the warm tones.
+
+3. **Image 3** shows a single bird, possibly a nightjar or similar species, perched on a tree branch. The bird's plumage blends well with the bark, demonstrating camouflage. The background consists of blurred green foliage, indicating a forested area. The lighting appears softer and more diffused, possibly due to overcast conditions or shade from the trees.
+
+### Key Visual Differences:
+- **Subjects**: Image 1 has two geese, Image 2 has a flock of birds near water, and Image 3 has a single camouflaged bird.
+- **Setting**: Image 1 is set on a grassy field, Image 2 is near a water body with a mix of land and water, and Image 3 is in a wooded area with a tree branch.
+- **Lighting**: Image 1 has even daylight, Image 2 has warm lighting suggestive of early morning or evening, and Image 3 has softer, diffused light.
+- **Focus**: Image 1 focuses on individual geese, Image 2 captures a group dynamic, and Image 3 emphasizes the camouflage of a solitary bird.","Comparison ([A, A, B])","Greater White-fronted Goose, Greater White-fronted Goose, Eastern Whip-poor-will",,
+B4,You are shown 2 groups of images. Compare the groups and explain how they differ.,"../dataset/semi-aves/test/6688.jpg, ../dataset/semi-aves/test/6879.jpg, ../dataset/semi-aves/test/7700.jpg, ../dataset/semi-aves/test/5404.jpg, ../dataset/semi-aves/test/5687.jpg, ../dataset/semi-aves/test/4586.jpg","Group 1: Images 1, 2, and 3  
+Group 2: Images 4, 5, and 6  
+
+### Differences between the two groups:
+
+#### **Bird Species**
+- **Group 1:** The birds in this group belong to the same species, specifically the Water Thick-knee (Burhinus vermiculatus). They have similar physical characteristics such as long legs, a stout body, and mottled brown plumage with white underparts.
+- **Group 2:** The birds in this group appear to be different species. They are smaller in size compared to the birds in Group 1 and have distinct features like black-and-white coloration on their heads and more slender bodies.
+
+#### **Habitat**
+- **Group 1:** These birds are found in terrestrial environments near water bodies. The background shows dry grass or muddy areas, which is typical for Water Thick-knees.
+- **Group 2:** These birds are perched on branches of trees, indicating that they inhabit wooded or forested areas. Their environment consists of green foliage and branches.
+
+#### **Behavior**
+- **Group 1:** The birds in this group are standing on the ground, suggesting they are ground-dwelling birds that forage and move around on land.
+- **Group 2:** The birds in this group are perched on branches, indicating they are arboreal birds that spend much of their time in trees.
+
+#### **Coloration and Pattern**
+- **Group 1:** The birds have earthy tones with brown, beige, and white patterns that provide camouflage in their natural habitat.
+- **Group 2:** The birds display contrasting black-and-white patterns on their heads and bodies, which may serve as a form of communication or identification within their species.
+
+In summary, the primary differences between the two groups lie in the bird species, their habitats, behavior, and physical appearance.",Group Comparison (2 groups),"Water Thick-knee, Water Thick-knee, Water Thick-knee, Black-capped Vireo, Black-capped Vireo, Black-capped Vireo",,
+B4,You are shown 2 groups of images. Compare the groups and explain how they differ.,"../dataset/semi-aves/test/2801.jpg, ../dataset/semi-aves/test/4878.jpg, ../dataset/semi-aves/test/1124.jpg, ../dataset/semi-aves/test/2612.jpg, ../dataset/semi-aves/test/472.jpg, ../dataset/semi-aves/test/5597.jpg","Group 1: Images 1, 2, and 3  
+Group 2: Images 4, 5, and 6  
+
+### Differences Between the Groups:
+
+#### **Subject Type**
+- **Group 1:** The birds in this group appear to be smaller songbirds or warblers. They have slender bodies, thin legs, and sharp beaks suited for perching on branches or foraging on the ground.
+- **Group 2:** The birds in this group are larger and include species like doves or pigeons (Images 4 and 5) and a bird that appears to be a heron or similar wading bird (Image 6). These birds have thicker bodies, stronger legs, and broader wings.
+
+#### **Habitat and Setting**
+- **Group 1:** The settings are more natural and less urban. The birds are either on the ground (Image 1) or perched on bare tree branches (Images 2 and 3), suggesting a forested or woodland environment.
+- **Group 2:** The settings are more varied but lean toward urban or semi-urban environments. Image 4 shows a bird in a tree with sparse foliage, while Image 5 features a bird near a human-made structure. Image 6 depicts a bird standing on a paved surface near a fence and parked cars.
+
+#### **Behavior**
+- **Group 1:** The birds seem to be resting or observing their surroundings calmly. Their posture is upright and alert, typical of small birds that need to stay vigilant against predators.
+- **Group 2:** The birds also appear calm, but their larger size suggests they may not face as many immediate threats. The bird in Image 6 seems to be walking or foraging on the ground, which is common behavior for larger birds like herons.
+
+#### **Coloration and Patterns**
+- **Group 1:** The birds have more intricate patterns and vibrant coloration, such as the yellow stripes on the bird in Image 1 and the subtle markings on the birds in Images 2 and 3.
+- **Group 2:** The birds have simpler, more uniform coloration. The doves in Images 4 and 5 have soft gray and white tones, while the bird in Image 6 has darker plumage with lighter accents.
+
+In summary, Group 1 features smaller, patterned songbirds in natural settings, while Group 2 includes larger, more uniformly colored birds in urban or semi-urban environments.",Group Comparison (2 groups),"Palm Warbler, Palm Warbler, Palm Warbler, Spotted Dove, Spotted Dove, Spotted Dove",,
+B4,You are shown 2 groups of images. Compare the groups and explain how they differ.,"../dataset/semi-aves/test/206.jpg, ../dataset/semi-aves/test/4748.jpg, ../dataset/semi-aves/test/3617.jpg, ../dataset/semi-aves/test/1569.jpg, ../dataset/semi-aves/test/1656.jpg, ../dataset/semi-aves/test/4274.jpg","Group 1: Images 1, 2, and 3  
+- These images feature small birds perched on branches or ground-level vegetation.
+- The birds appear to be similar in size and have a relatively plain coloration with shades of gray, white, and brown.
+- The settings are natural outdoor environments with greenery.
+
+Group 2: Images 4, 5, and 6  
+- These images include larger birds, such as woodpeckers, and a tree with a bird's nest.
+- The birds in these images have more distinctive features, like the red and black patterns on the woodpeckers.
+- The scenes vary from close-ups of a tree trunk (with a nest) to birds on the ground and in trees.
+
+### Differences:
+1. **Bird Size and Appearance**:  
+   - Group 1 has smaller birds with less striking colors.  
+   - Group 2 includes larger birds with more vivid markings.
+
+2. **Behavior and Setting**:  
+   - Group 1 shows birds primarily perched on branches or low vegetation.  
+   - Group 2 includes birds on the ground, in trees, and a tree with a nest.
+
+3. **Species Diversity**:  
+   - Group 1 appears to focus on a single type of bird.  
+   - Group 2 showcases different species, including woodpeckers.",Group Comparison (2 groups),"Lesser Whitethroat, Lesser Whitethroat, Lesser Whitethroat, Great Spotted Woodpecker, Great Spotted Woodpecker, Great Spotted Woodpecker",,
+B4,You are shown 2 groups of images. Compare the groups and explain how they differ.,"../dataset/semi-aves/test/4001.jpg, ../dataset/semi-aves/test/844.jpg, ../dataset/semi-aves/test/6521.jpg, ../dataset/semi-aves/test/1229.jpg, ../dataset/semi-aves/test/89.jpg, ../dataset/semi-aves/test/4120.jpg","Group 1 consists of images 1, 2, and 3, while Group 2 consists of images 4, 5, and 6.
+
+### Differences between the two groups:
+
+#### **Subject:**
+- **Group 1:** The images feature small birds perched on branches or shrubs in natural settings. These birds appear to be sparrows or similar species.
+- **Group 2:** The images showcase larger water birds, specifically pelicans, either floating on water or resting on a rooftop. 
+
+#### **Environment:**
+- **Group 1:** The backgrounds are predominantly grassy fields with sparse vegetation, indicating terrestrial habitats.
+- **Group 2:** The scenes include aquatic environments (water bodies) and an urban setting (a rooftop), reflecting diverse habitats.
+
+#### **Behavior:**
+- **Group 1:** The birds are stationary, perched on branches, suggesting they might be resting or foraging.
+- **Group 2:** One pelican is swimming, while another is resting on a rooftop, indicating varied behaviors associated with their respective environments.
+
+#### **Color Palette:**
+- **Group 1:** The images have earthy tones with greens and browns dominating due to the grassy and shrub-filled surroundings.
+- **Group 2:** The images incorporate blues and whites from the water and sky, as well as the white feathers of the pelicans, creating a cooler color palette.
+
+#### **Perspective:**
+- **Group 1:** The camera angles focus closely on the birds, capturing them at eye level within their natural habitat.
+- **Group 2:** The perspectives vary, with one image showing a pelican from a distance on water and another from a lower angle looking up at a pelican on a rooftop.",Group Comparison (2 groups),"Grasshopper Sparrow, Grasshopper Sparrow, Grasshopper Sparrow, Australian Pelican, Australian Pelican, Australian Pelican",,
+B4,You are shown 2 groups of images. Compare the groups and explain how they differ.,"../dataset/semi-aves/test/2871.jpg, ../dataset/semi-aves/test/4797.jpg, ../dataset/semi-aves/test/175.jpg, ../dataset/semi-aves/test/4198.jpg, ../dataset/semi-aves/test/2999.jpg, ../dataset/semi-aves/test/31.jpg","Group 1 consists of images 1, 2, and 3, which feature herons. These birds have long legs, necks, and beaks, and they are depicted in various settings: on grass (image 1), perched on a branch (image 2), and standing on rocks (image 3). The herons are primarily grey with white and black markings.
+
+Group 2 includes images 4, 5, and 6, showcasing terns. Terns are smaller than herons, with more slender bodies, shorter legs, and forked tails. They are predominantly white with black caps and red or black beaks. In these images, the terns are either flying (images 4 and 5) or resting on a rock near water (image 6).
+
+The main differences between the two groups are the species of birds (herons vs. terns), their physical characteristics, and the activities they are engaged in within their respective environments.",Group Comparison (2 groups),"Black-headed Heron, Black-headed Heron, Black-headed Heron, Arctic Tern, Arctic Tern, Arctic Tern",,
+B5,You are shown 3 groups of images. Compare the groups and explain how they differ.,"../dataset/semi-aves/test/434.jpg, ../dataset/semi-aves/test/1097.jpg, ../dataset/semi-aves/test/2317.jpg, ../dataset/semi-aves/test/7549.jpg, ../dataset/semi-aves/test/5126.jpg, ../dataset/semi-aves/test/5511.jpg, ../dataset/semi-aves/test/4131.jpg, ../dataset/semi-aves/test/6350.jpg, ../dataset/semi-aves/test/3536.jpg",[ERROR] Error code: 400 - {'detail': 'Invalid request. Please check the parameters and try again. Details: At most 8 image(s) may be provided in one request. You can set `--limit-mm-per-prompt` to increase this limit if the model supports it.'},Group Comparison (3 groups),"Summer Tanager, Summer Tanager, Summer Tanager, Eucometis penicillata, Eucometis penicillata, Eucometis penicillata, Sooty-headed Bulbul, Sooty-headed Bulbul, Sooty-headed Bulbul",,
+B5,You are shown 3 groups of images. Compare the groups and explain how they differ.,"../dataset/semi-aves/test/5802.jpg, ../dataset/semi-aves/test/4635.jpg, ../dataset/semi-aves/test/1115.jpg, ../dataset/semi-aves/test/1968.jpg, ../dataset/semi-aves/test/1101.jpg, ../dataset/semi-aves/test/1012.jpg, ../dataset/semi-aves/test/2471.jpg, ../dataset/semi-aves/test/7054.jpg, ../dataset/semi-aves/test/4569.jpg",[ERROR] Error code: 400 - {'detail': 'Invalid request. Please check the parameters and try again. Details: At most 8 image(s) may be provided in one request. You can set `--limit-mm-per-prompt` to increase this limit if the model supports it.'},Group Comparison (3 groups),"Village Weaver, Village Weaver, Village Weaver, Syrian Woodpecker, Syrian Woodpecker, Syrian Woodpecker, Red-tailed Hawk, Red-tailed Hawk, Red-tailed Hawk",,
+B5,You are shown 3 groups of images. Compare the groups and explain how they differ.,"../dataset/semi-aves/test/6014.jpg, ../dataset/semi-aves/test/6878.jpg, ../dataset/semi-aves/test/7128.jpg, ../dataset/semi-aves/test/6991.jpg, ../dataset/semi-aves/test/7074.jpg, ../dataset/semi-aves/test/3188.jpg, ../dataset/semi-aves/test/5270.jpg, ../dataset/semi-aves/test/1800.jpg, ../dataset/semi-aves/test/5170.jpg",[ERROR] Error code: 400 - {'detail': 'Invalid request. Please check the parameters and try again. Details: At most 8 image(s) may be provided in one request. You can set `--limit-mm-per-prompt` to increase this limit if the model supports it.'},Group Comparison (3 groups),"Golden-billed Saltator, Golden-billed Saltator, Golden-billed Saltator, Black-faced Cuckooshrike, Black-faced Cuckooshrike, Black-faced Cuckooshrike, Northern Rough-winged Swallow, Northern Rough-winged Swallow, Northern Rough-winged Swallow",,
+B5,You are shown 3 groups of images. Compare the groups and explain how they differ.,"../dataset/semi-aves/test/2964.jpg, ../dataset/semi-aves/test/6566.jpg, ../dataset/semi-aves/test/2315.jpg, ../dataset/semi-aves/test/5377.jpg, ../dataset/semi-aves/test/1875.jpg, ../dataset/semi-aves/test/1951.jpg, ../dataset/semi-aves/test/2707.jpg, ../dataset/semi-aves/test/6259.jpg, ../dataset/semi-aves/test/2081.jpg",[ERROR] Error code: 400 - {'detail': 'Invalid request. Please check the parameters and try again. Details: At most 8 image(s) may be provided in one request. You can set `--limit-mm-per-prompt` to increase this limit if the model supports it.'},Group Comparison (3 groups),"Charadrius collaris, Charadrius collaris, Charadrius collaris, California Gnatcatcher, California Gnatcatcher, California Gnatcatcher, Green Jay, Green Jay, Green Jay",,
+B5,You are shown 3 groups of images. Compare the groups and explain how they differ.,"../dataset/semi-aves/test/2697.jpg, ../dataset/semi-aves/test/6648.jpg, ../dataset/semi-aves/test/4378.jpg, ../dataset/semi-aves/test/1642.jpg, ../dataset/semi-aves/test/7756.jpg, ../dataset/semi-aves/test/1426.jpg, ../dataset/semi-aves/test/459.jpg, ../dataset/semi-aves/test/4222.jpg, ../dataset/semi-aves/test/1409.jpg",[ERROR] Error code: 400 - {'detail': 'Invalid request. Please check the parameters and try again. Details: At most 8 image(s) may be provided in one request. You can set `--limit-mm-per-prompt` to increase this limit if the model supports it.'},Group Comparison (3 groups),"Black-throated Mango, Black-throated Mango, Black-throated Mango, Certhia familiaris, Certhia familiaris, Certhia familiaris, Purple Sunbird, Purple Sunbird, Purple Sunbird",,
+A4,You are shown 2 groups of images. Each group contains equal number of images. Describe the 3rd image from the 2nd group.,"../dataset/semi-aves/test/1694.jpg, ../dataset/semi-aves/test/5241.jpg, ../dataset/semi-aves/test/7493.jpg, ../dataset/semi-aves/test/1283.jpg, ../dataset/semi-aves/test/1045.jpg, ../dataset/semi-aves/test/3632.jpg","The third image from the second group (images 4, 5, and 6) is **Image 5**.
+
+**Description of Image 5:**
+This image shows a bird perched on a thin branch. The bird has a striking black-and-white coloration with a white head, black wings, and a black tail. It also features a bright yellow eye that stands out against its plumage. The background is blurred, suggesting a natural outdoor setting with greenery. The bird appears to be in a calm posture, possibly observing its surroundings.",Positional Grouped (2x3),"Lark Sparrow, Lark Sparrow, Lark Sparrow, Prionops plumatus, Prionops plumatus, Prionops plumatus",,
+A4,You are shown 2 groups of images. Each group contains equal number of images. Describe the 3rd image from the 2nd group.,"../dataset/semi-aves/test/3571.jpg, ../dataset/semi-aves/test/1904.jpg, ../dataset/semi-aves/test/448.jpg, ../dataset/semi-aves/test/5245.jpg, ../dataset/semi-aves/test/3216.jpg, ../dataset/semi-aves/test/3406.jpg","The third image from the second group (images 4, 5, and 6) is:
+
+**Image 5:** A bird perched on the trunk of a tree. The bird has a slender body with a mix of brown and white feathers, and it appears to be clinging to the tree bark. The background includes green foliage and a clear blue sky.",Positional Grouped (2x3),"Goliath Heron, Goliath Heron, Goliath Heron, Gilded Flicker, Gilded Flicker, Gilded Flicker",,
+A4,You are shown 2 groups of images. Each group contains equal number of images. Describe the 3rd image from the 2nd group.,"../dataset/semi-aves/test/7847.jpg, ../dataset/semi-aves/test/6709.jpg, ../dataset/semi-aves/test/2746.jpg, ../dataset/semi-aves/test/4597.jpg, ../dataset/semi-aves/test/5935.jpg, ../dataset/semi-aves/test/6530.jpg","The third image from the second group (images 4, 5, and 6) is:
+
+**Image 5:** It shows a small bird perched on a rusted metal fence. The bird has brown and white plumage with streaks, and it appears to be in a dry, sandy environment. The background is blurred but suggests an open area with sparse vegetation. The bird's posture indicates it might be resting or observing its surroundings.",Positional Grouped (2x3),"Black-headed Heron, Black-headed Heron, Black-headed Heron, Savannah Sparrow, Savannah Sparrow, Savannah Sparrow",,
+A4,You are shown 2 groups of images. Each group contains equal number of images. Describe the 3rd image from the 2nd group.,"../dataset/semi-aves/test/6962.jpg, ../dataset/semi-aves/test/2506.jpg, ../dataset/semi-aves/test/3529.jpg, ../dataset/semi-aves/test/6142.jpg, ../dataset/semi-aves/test/7386.jpg, ../dataset/semi-aves/test/2903.jpg","The third image from the second group (images 4, 5, and 6) is:
+
+**Image 6:** It shows a bird with dark plumage and a white face swimming in water surrounded by lush green vegetation. The bird appears to be a type of coot or similar waterfowl, and it is calmly floating on the surface of the water near some aquatic plants. The background consists of dense greenery, suggesting a natural wetland habitat.",Positional Grouped (2x3),"Whiskered Tern, Whiskered Tern, Whiskered Tern, Red-knobbed Coot, Red-knobbed Coot, Red-knobbed Coot",,
+A4,You are shown 2 groups of images. Each group contains equal number of images. Describe the 3rd image from the 2nd group.,"../dataset/semi-aves/test/3305.jpg, ../dataset/semi-aves/test/4991.jpg, ../dataset/semi-aves/test/4084.jpg, ../dataset/semi-aves/test/4763.jpg, ../dataset/semi-aves/test/4066.jpg, ../dataset/semi-aves/test/2595.jpg","The third image from the second group (images 4, 5, and 6) is **Image 5**.
+
+### Description of Image 5:
+- The image shows a bird standing on the ground in a natural setting.
+- The bird has a brownish body with darker wings and tail feathers.
+- Its beak is short and pointed, suitable for foraging or eating insects.
+- The background consists of soil, scattered leaves, and some greenery, suggesting a forest floor or woodland environment.
+- The lighting appears to be natural, possibly during daylight hours.",Positional Grouped (2x3),"Lesser Whitethroat, Lesser Whitethroat, Lesser Whitethroat, Turdus leucomelas, Turdus leucomelas, Turdus leucomelas",,
+A5,You are shown 3 groups of images. Each group contains equal number of images. Describe the 1st image from the 4th group.,"../dataset/semi-aves/test/733.jpg, ../dataset/semi-aves/test/5876.jpg, ../dataset/semi-aves/test/6337.jpg, ../dataset/semi-aves/test/3446.jpg, ../dataset/semi-aves/test/3768.jpg, ../dataset/semi-aves/test/4496.jpg","The first image from the fourth group (Image 5) shows a bird perched on a wire against a clear blue sky. The bird has a glossy, iridescent blue head and back, with an orange chest and white underparts. Its wings have black and white patterns, and it has a short, pointed beak. The overall appearance suggests it is a Superb Starling.",Positional Grouped (3x2),"Green Wood Hoopoe, Green Wood Hoopoe, Western Grebe, Western Grebe, Superb Starling, Superb Starling",,
+A5,You are shown 3 groups of images. Each group contains equal number of images. Describe the 1st image from the 4th group.,"../dataset/semi-aves/test/6401.jpg, ../dataset/semi-aves/test/2536.jpg, ../dataset/semi-aves/test/3983.jpg, ../dataset/semi-aves/test/2694.jpg, ../dataset/semi-aves/test/2744.jpg, ../dataset/semi-aves/test/7318.jpg","There is no fourth group of images provided in your request. However, if we consider the six images as three groups of two, then the first image from the third group (which would be considered the ""fourth"" image in a sequential list) is:
+
+**Image 4:** A scene showing several birds flying over a body of water. The water appears to be a deep blue, and the birds are captured mid-flight, creating a dynamic and natural composition.",Positional Grouped (3x2),"Tawny-flanked Prinia, Tawny-flanked Prinia, Black-legged Kittiwake, Black-legged Kittiwake, Oak Titmouse, Oak Titmouse",,
+A5,You are shown 3 groups of images. Each group contains equal number of images. Describe the 1st image from the 4th group.,"../dataset/semi-aves/test/626.jpg, ../dataset/semi-aves/test/1626.jpg, ../dataset/semi-aves/test/1101.jpg, ../dataset/semi-aves/test/3204.jpg, ../dataset/semi-aves/test/4474.jpg, ../dataset/semi-aves/test/111.jpg","There is no fourth group in the provided images. The images are numbered sequentially from 1 to 6, and there are no additional groups beyond these six individual images. If you have more images or need further clarification, please provide them.",Positional Grouped (3x2),"Southern Lapwing, Southern Lapwing, Syrian Woodpecker, Syrian Woodpecker, Ashy Drongo, Ashy Drongo",,
+A5,You are shown 3 groups of images. Each group contains equal number of images. Describe the 1st image from the 4th group.,"../dataset/semi-aves/test/6708.jpg, ../dataset/semi-aves/test/4505.jpg, ../dataset/semi-aves/test/7679.jpg, ../dataset/semi-aves/test/3417.jpg, ../dataset/semi-aves/test/3771.jpg, ../dataset/semi-aves/test/6737.jpg","The provided images only consist of six individual images, not grouped into four groups with three images each. Therefore, there is no ""first image from the fourth group"" to describe. However, I can describe Image 5 for you:
+
+**Image 5:** This image shows a Red-winged Blackbird perched on a branch or twig that extends over a body of water. The bird's vibrant red and yellow wing patches are visible, contrasting with its black plumage. The background consists of reeds and other vegetation along the water's edge, creating a natural wetland setting. The reflection of the bird and surrounding elements can be seen in the calm water below.",Positional Grouped (3x2),"Semipalmated Plover, Semipalmated Plover, Sooty-headed Bulbul, Sooty-headed Bulbul, Red-winged Blackbird, Red-winged Blackbird",,
+A5,You are shown 3 groups of images. Each group contains equal number of images. Describe the 1st image from the 4th group.,"../dataset/semi-aves/test/88.jpg, ../dataset/semi-aves/test/2735.jpg, ../dataset/semi-aves/test/4399.jpg, ../dataset/semi-aves/test/6783.jpg, ../dataset/semi-aves/test/3765.jpg, ../dataset/semi-aves/test/6214.jpg","The first image from the fourth group (Image 4) shows a bird, likely a swallow, in flight near a nest built on a concrete surface. The nest appears to be made of mud and is attached to the wall. The bird seems to be either entering or exiting the nest.",Positional Grouped (3x2),"Egyptian Goose, Egyptian Goose, Cliff Swallow, Cliff Swallow, Ferruginous Hawk, Ferruginous Hawk",,

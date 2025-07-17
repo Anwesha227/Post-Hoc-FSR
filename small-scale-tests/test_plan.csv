@@ -1,0 +1,11 @@
+test_id,description,num_images,target_index,type,grouped,group
+A1,Describe 2nd image out of 3,3,2.0,positional,False,
+A2,Describe 4th image out of 5,5,4.0,positional,False,
+A3,Describe 3rd image out of 7,7,3.0,positional,False,
+A4,Describe 2nd image from 2nd group,6,2.0,positional,True,2.0
+A5,Describe 1st image from 3rd group,6,1.0,positional,True,3.0
+B1,Compare 3 similar species images,3,,comparison,False,
+B2,Compare 5 similar species images,5,,comparison,False,
+B3,"Compare [A, A, B] species to test hallucination",3,,comparison,False,
+B4,Compare 2 groups of images,6,,comparison,True,2.0
+B5,Compare 3 groups of images,9,,comparison,True,3.0
