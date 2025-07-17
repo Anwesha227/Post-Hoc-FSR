@@ -16,6 +16,8 @@ dataset/semi-aves/pregenerated_references_6shot/
 dataset/semi-aves/pregenerated_references_8shot/
 dataset/semi-aves/pregenerated_references_12shot/
 dataset/semi-aves/pregenerated_references_16shot/
+dataset/semi-aves/test
+dataset/semi-aves/trainval_images
 
 # Ignore files
 *.pyc
